@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import "../../styles/popups/otp.scss";
 import close from "/icons/XCircle.png";
-import { Link, Navigate } from "react-router-dom";
-import CountdownTimer from "./timer";
+import { Link } from "react-router-dom";
+// import CountdownTimer from "./timer";
 import { useState } from "react";
 import { EmailContext } from "../Context/Context";
 import { useNavigate } from "react-router-dom";
