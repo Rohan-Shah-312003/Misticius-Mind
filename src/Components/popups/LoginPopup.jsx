@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../../styles/popups/loginPopup.scss";
 import close from '../../../public/icons/XCircle.png'
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ const Login = () => {
       <div className="login-header">
         <span className="active-tab-login" style={{color:"#3637d4",fontWeight:"bold"}}>Login</span>
         <Link to = '/signup' style={{textDecoration:"none"}}><span style={{textWrap:"nowrap"} }>Sign Up</span></Link>
-        <img src={close} className="close-button-login"/>
+        <img src={close} className="close-button-login" alt='close' />
       </div>
       <div className="active-underline"></div>
       <div className="underline"></div>
