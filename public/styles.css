@@ -58,12 +58,12 @@ header button:hover {
 
 .navbar {
      background-color: white;
-     padding: 1rem 1rem;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
      position: fixed;
      width: 100%;
      top: 0;
      z-index: 1000;
+
  }
 
 .logo-image {
@@ -77,6 +77,9 @@ header button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1px 20px;
+    /*margin: 0;*/
+    gap: 15rem;
 }
 
 .logo a {
@@ -96,7 +99,7 @@ header button:hover {
 .nav-buttons {
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .login-btn {
@@ -193,12 +196,14 @@ header button:hover {
 
 .banner-container1 {
     background-image: linear-gradient(90deg, #000180 0%, rgba(219, 104, 12, 0.55) 100%), url('./Assets/banner1.jpeg');
+    filter: hue-rotate(10deg);
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), url('./Assets/banner1.jpeg');*/
     background-size: cover;
 }
 
 .banner-container2 {
     background-image: linear-gradient(90deg, #000180 0%, rgba(219, 104, 12, 0.55) 100%), url('./Assets/banner2.jpeg');
+    filter: hue-rotate(10deg);
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%), url('./Assets/banner2.jpeg');*/
 
     /*background-image: linear-gradient(270deg, #000180 0%, rgba(219, 104, 12, 0.55) 100%), url('./Assets/banner2.jpeg');*/
@@ -473,7 +478,7 @@ header button:hover {
     text-align: center;
     margin-bottom: 48px;
     h1 {
-        font-weight: 450;
+        font-weight: 400;
     }
 
     p {
@@ -493,7 +498,7 @@ header button:hover {
     border-radius: 20px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
     padding: 34px;
-
+    margin-top: 50px;
     .card-header {
         background: white;
     }
@@ -683,7 +688,7 @@ header button:hover {
 .client-logo {
     height: 100px;
     object-fit: contain;
-    opacity: 0.8;
+    opacity: 0.75;
     transition: opacity 0.3s ease;
 }
 
